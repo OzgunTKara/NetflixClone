@@ -1,0 +1,237 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block body %}
+
+      <!-- Hero image -->
+      <div class="films-image">
+
+        <div class="series-header d-flex">
+            <h4>Filmler</h4>
+
+            <div class="dropdown series-dropdown ms-4">
+                <button class="btn dropdown-toggle text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Türler
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="play">
+            <button class="play-btn" type="button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="Hawkins-Icon Hawkins-Icon-Standard" data-name="Play"><path d="M4 2.69127C4 1.93067 4.81547 1.44851 5.48192 1.81506L22.4069 11.1238C23.0977 11.5037 23.0977 12.4963 22.4069 12.8762L5.48192 22.1849C4.81546 22.5515 4 22.0693 4 21.3087V2.69127Z" fill="currentColor"></path></svg>
+                Oynat
+            </button>
+        </div>
+
+      </div>
+
+      <div class="container">
+          <div class="row mt-5">
+
+            <h3 class="text-light">Komedi Filmler</h3>
+
+            <div class="col-md-2 col-4 mt-1">
+                <a href="video.html">
+                    <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-4 mt-1">
+                <a href="video.html">
+                    <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-4 mt-1">
+                <a href="video.html">
+                    <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-4 mt-1">
+                <a href="video.html">
+                    <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-4 mt-1">
+                <a href="video.html">
+                    <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-4 mt-1">
+                <a href="video.html">
+                    <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+                </a>
+            </div>
+
+          </div>
+
+          <div class="row mt-5">
+              <h3 class="text-light"> Aksiyon Filmler</h3>
+
+              <div class="col-md-2 col-4 mt-1">
+                <a href="video.html">
+                    <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-4 mt-1">
+                <a href="video.html">
+                    <img src="{% static 'img/film2.jpg' %}" class="w-100" alt="">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-4 mt-1">
+                <a href="video.html">
+                    <img src="{% static 'img/film3.jpg' %}" class="w-100" alt="">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-4 mt-1">
+                <a href="video.html">
+                    <img src="{% static 'img/film4.webp' %}" class="w-100" alt="">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-4 mt-1">
+                <a href="video.html">
+                    <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+                </a>
+            </div>
+
+            <div class="col-md-2 col-4 mt-1">
+                <a href="video.html">
+                    <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+                </a>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <h3 class="text-light"> Bilim Kurgu Filmler</h3>
+
+            <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film2.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film3.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film4.webp' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+        </div>
+        <div class="row mt-5">
+            <h3 class="text-light"> Şiddet İçerikli Diziler</h3>
+
+            <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film2.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film3.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film4.webp' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+        </div>
+        <div class="row mt-5">
+            <h3 class="text-light"> Türk Yapımı</h3>
+
+            <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film2.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film3.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film4.webp' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+
+          <div class="col-md-2 col-4 mt-1">
+              <a href="video.html">
+                  <img src="{% static 'img/film1.jpg' %}" class="w-100" alt="">
+              </a>
+          </div>
+        </div>
+      </div>
+
+{% endblock body %}
